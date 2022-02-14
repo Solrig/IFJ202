@@ -1,7 +1,5 @@
 # Lightweight HTTP server v jazyku C
 
-Server preložíte pomocou pribaleného makefilu.
-
 ## Špecifikácia
 
 Jedná sa o lightweight server, ktorý má minimum závislostí.
@@ -12,6 +10,8 @@ Prijíma GET requesty:
 * /load     (získa aktuálnu záťaž procesora)
 
 ### Inštalácia
+
+Server preložíte pomocou pribaleného makefilu.
 
 ```
 $ make
@@ -30,9 +30,9 @@ $ make
 $ ./hinfosvc 12345 &
 ```
 ```
-$ curl http://localhost:12345/hostname
-$ curl http://localhost:12345/cpu-name
-$ curl http://localhost:12345/load
+$ GET http://localhost:12345/hostname
+$ GET http://localhost:12345/cpu-name
+$ GET http://localhost:12345/load
 ```
 ## Výstup
 ```
