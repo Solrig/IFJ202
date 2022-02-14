@@ -36,7 +36,7 @@ $ curl http://localhost:12345/load
 ```
 ## Výstup
 ```
-$ merlin.fit.vutbr.cz
-$ Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
-$ 65%
+merlin.fit.vutbr.cz
+Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+65%
 ```
