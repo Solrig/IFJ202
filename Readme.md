@@ -1,6 +1,6 @@
-# Project Title
+# Lightweight HTTP server v jazyku C
 
-A short description about the project and/or client.
+Server preložíte pomocou pribaleného makefilu.
 
 ## Getting Started
 
@@ -19,9 +19,7 @@ The things you need before installing the software.
 A step by step guide that will tell you how to get the development environment up and running.
 
 ```
-$ First step
-$ Another step
-$ Final step
+$ make
 ```
 
 ## Usage
@@ -29,9 +27,7 @@ $ Final step
 A few examples of useful commands and/or tasks.
 
 ```
-$ First example
-$ Second example
-$ And keep this in mind
+$ ./hinfosvc PORT
 ```
 
 ## Deployment
