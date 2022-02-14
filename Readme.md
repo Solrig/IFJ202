@@ -11,9 +11,7 @@ Prijíma GET requesty:
 * /cpu-name (získa informácie o procesore)
 * /load     (získa aktuálnu záťaž procesora)
 
-### Installation
-
-A step by step guide that will tell you how to get the development environment up and running.
+### Inštalácia
 
 ```
 $ make
@@ -36,4 +34,9 @@ $ curl http://localhost:12345/hostname
 $ curl http://localhost:12345/cpu-name
 $ curl http://localhost:12345/load
 ```
-
+## Výstup
+```
+$ merlin.fit.vutbr.cz
+$ Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+$ 65%
+```
