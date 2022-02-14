@@ -5,9 +5,10 @@ Server preložíte pomocou pribaleného makefilu.
 ## Špecifikácia
 
 Server prijíma GET requesty na zadanom porte, ktorý sa píše do argumentu pri spustení programu.
-Prijíma GET requesty: /hostname (získa doménové meno)
-                      /cpu-name (získa informácie o procesore)
-                      /load     (získa aktuálnu záťaž procesora)
+Prijíma GET requesty: 
+* /hostname (získa doménové meno)
+* /cpu-name (získa informácie o procesore)
+* /load     (získa aktuálnu záťaž procesora)
 
 ### Prerequisites
 
