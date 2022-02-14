@@ -4,19 +4,12 @@ Server preložíte pomocou pribaleného makefilu.
 
 ## Špecifikácia
 
+Jedná sa o lightweight server, ktorý má minimum závislostí.
 Server prijíma GET requesty na zadanom porte, ktorý sa píše do argumentu pri spustení programu.
 Prijíma GET requesty: 
 * /hostname (získa doménové meno)
 * /cpu-name (získa informácie o procesore)
 * /load     (získa aktuálnu záťaž procesora)
-
-### Prerequisites
-
-The things you need before installing the software.
-
-* You need this
-* And you need this
-* Oh, and don't forget this
 
 ### Installation
 
@@ -32,26 +25,13 @@ $ make
 $ ./hinfosvc PORT
 ```
 
-## Deployment
+## Príklady použitia
 
-Additional notes on how to deploy this on a live or release system. Explaining the most important branches, what pipelines they trigger and how to update the database (if anything special).
+```
+$ make
+$ ./hinfosvc 12345 &
 
-### Server
-
-* Live:
-* Release:
-* Development:
-
-### Branches
-
-* Master:
-* Feature:
-* Bugfix:
-* etc...
-
-## Additional Documentation and Acknowledgments
-
-* Project folder on server:
-* Confluence link:
-* Asana board:
-* etc...
+$ curl http://localhost:12345/hostname
+$ curl http://localhost:12345/cpu-name
+$ curl http://localhost:12345/load
+```
