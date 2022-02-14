@@ -2,9 +2,12 @@
 
 Server preložíte pomocou pribaleného makefilu.
 
-## Getting Started
+## Špecifikácia
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Server prijíma GET requesty na zadanom porte, ktorý sa píše do argumentu pri spustení programu.
+Prijíma GET requesty: /hostname (získa doménové meno)
+                      /cpu-name (získa informácie o procesore)
+                      /load     (získa aktuálnu záťaž procesora)
 
 ### Prerequisites
 
@@ -22,9 +25,7 @@ A step by step guide that will tell you how to get the development environment u
 $ make
 ```
 
-## Usage
-
-A few examples of useful commands and/or tasks.
+## Použitie
 
 ```
 $ ./hinfosvc PORT
