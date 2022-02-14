@@ -30,8 +30,10 @@ $ ./hinfosvc PORT
 ```
 $ make
 $ ./hinfosvc 12345 &
-
+```
+```
 $ curl http://localhost:12345/hostname
 $ curl http://localhost:12345/cpu-name
 $ curl http://localhost:12345/load
 ```
+
