@@ -16,14 +16,13 @@ Server preložíte pomocou pribaleného makefilu.
 ```
 $ make
 ```
-
 ## Použitie
 
 ```
 $ ./hinfosvc PORT
 ```
 
-## Príklady použitia
+## Príklady použitia (test)
 
 
 ```
