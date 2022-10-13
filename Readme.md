@@ -25,6 +25,7 @@ $ ./hinfosvc PORT
 
 ## Príklady použitia
 
+
 ```
 $ make
 $ ./hinfosvc 12345 &
